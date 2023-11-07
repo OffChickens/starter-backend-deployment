@@ -16,9 +16,6 @@ module.exports = {
     migrations: {
       directory: __dirname + "/api/db/migrations",
     },
-    seeds: {
-      directory: __dirname + "/api/db/seeds",
-    },
   },
 
   production: {
@@ -26,9 +23,6 @@ module.exports = {
     connection: URL,
     migrations: {
       directory: __dirname + "/api/db/migrations",
-    },
-    seeds: {
-      directory: __dirname + "/api/db/seeds",
     },
   },
 };
